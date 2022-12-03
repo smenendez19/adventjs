@@ -22,6 +22,6 @@ En este repositorio ire dejando las soluciones para cada reto del adventJS de Mi
 
 | Reto | Puntaje | Link |
 |---|---|---|
-|Reto 1 (Facil)| 132  |[Reto 01](https://github.com/SantiMenendez19/codember/tree/main/2022/challenge01)|
-|Reto 2 (Facil)| 132  |[Reto 02](https://github.com/SantiMenendez19/codember/tree/main/2022/challenge02)|
-|Reto 3 (Facil)| 198  |[Reto 03](https://github.com/SantiMenendez19/codember/tree/main/2022/challenge03)|
+|Reto 1 (Facil)| 132  |[Reto 01](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge01)|
+|Reto 2 (Facil)| 132  |[Reto 02](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge02)|
+|Reto 3 (Facil)| 198  |[Reto 03](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge03)|
