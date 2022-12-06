@@ -1,9 +1,10 @@
 function createCube(size) {
-    let cubeUp = []
-    let cubeDown = []
-    for (let i = 0; i < size; i++) {
-        cubeUp.push(`${" ".repeat(size - 1 - i)}${"/\\".repeat(i + 1)}${"_\\".repeat(size)}`)
-        cubeDown.push(`${" ".repeat(size - 1 - i)}${"\\/".repeat(i + 1)}${"_/".repeat(size)}`)
+    let cube = []
+    for (let i = size; i > 0; i--) {
+        cube.unshift(`${" ".repeat(size - i)}${"/\\".repeat(i)}${"_\\".repeat(size)}`)
+        cube.push(`${" ".repeat(size - i)}${"\\/".repeat(i)}${"_/".repeat(size)}`)
     }
-    return cubeUp.concat(cubeDown.reverse()).join("\n")
+    return cube.join("\n")
 }
+
+console.log(createCube(3))
