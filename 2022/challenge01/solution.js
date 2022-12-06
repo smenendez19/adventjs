@@ -1,7 +1,3 @@
-wrapping = (gifts) => {
-    return gifts.map(item => {
-      const ast = "*".repeat(item.length + 2)
-      return `${ast}\n*${item}*\n${ast}`
-      })
-  }
-  
+function wrapping(gifts) {
+  return gifts.map(item => `${"*".repeat(item.length)}**\n*${item}*\n**${"*".repeat(item.length)}`)
+}

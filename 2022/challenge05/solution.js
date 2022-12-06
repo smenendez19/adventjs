@@ -1,49 +1,12 @@
-// Solucion con backtracking (120)
-
 function getMaxGifts(giftsCities, maxGifts, maxCities) {
-  let max = 0;
-  const backtrack = (nums, path) => {
-      let sum = 0
-      path.forEach(item => {
-        sum += item
-      })
-      if (sum > max && sum <= maxGifts) {
-        max = sum
-      }
-      nums.forEach((item, i) => {
-          path.push(item);
-          if (path.length <= maxCities) {
-            backtrack(nums.slice(i + 1), path);
-          }
-          path.pop(item);
-      })
-  }
-  backtrack(giftsCities, []);
-  return max;
+  return Math.max(...[...giftsCities.reduce((x, y) => x.concat(x.map(x => [y].concat(x))), [[]])]
+    .filter(item => item.length <= maxCities)
+    .map(subset => subset.reduce((a, b) => a + b, 0))
+    .filter(item => item <= maxGifts))
 }
 
-// Solucion normal (96)
-
-//function getMaxGifts(giftsCities, maxGifts, maxCities) {
-//  let possible = 0
-//  for (let i = 0; i < giftsCities.length; i++) {
-//    let sum = giftsCities[i]
-//    let cities = 1
-//    for (let j = i + 1; j < giftsCities.length; j++) {
-//      if(sum + giftsCities[j] > maxGifts) {
-//        continue
-//      }
-//      if (cities + 1 > maxCities) {
-//        break
-//      }
-//      sum += giftsCities[j]
-//      cities += 1
-//    }
-//    if (sum > possible && sum <= maxGifts) {
-//      possible = sum
-//    }
-//  }
-//  return possible
-//}
-
-console.log(getMaxGifts([12, 3, 11, 5, 7], 20, 3))
+// Explicacion
+// El problema tenia varias soluciones, se podia hacer de manera iterativa, utilizando recursividad con backtracking o la mas optima
+// que es obteniendo todas las combinaciones posibles utilizando un reduce y concatenando todos los resultados que se van formando en el map.
+// Luego se filtra aquellos que sean menores que la maxima cantidad de ciudades, se realiza una sumatoria y de esa suma se filtra
+// aquellos que sean menores que la maxima cantidad de regalos.

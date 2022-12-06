@@ -1,8 +1,6 @@
-countHours = (year, holidays) => {
-  let hours = 0
-  holidays.forEach((item) => {
+function countHours(year, holidays) {
+  return holidays.map((item) => {
     const weekDay = new Date(year + "/" + item).getDay()
-    hours = (weekDay === 0 || weekDay === 6) ? hours : hours += 2
-  })
-  return hours
+    return (weekDay === 0 || weekDay === 6) ? 0 : 2
+  }).reduce((a, b) => a + b)
 }
