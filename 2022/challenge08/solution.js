@@ -1,7 +1,8 @@
 function checkPart(part) {
-    return [...part].reduce((pal, y, i) => {
-        console.log(pal, y, i)
+    return [...part].reduce((pal, _, i) => {
+        // Devuelve el array quitando una letra
         const word = [...part].filter((_, j) => i != j)
-        return word.join("") === word.reverse().join("") ? true : pal
-    }, false)
+        // Suma cada booleano
+        return pal += word.join("") === word.reverse().join("")
+    }, 0) > 0
 }
