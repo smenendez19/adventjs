@@ -29,3 +29,4 @@ En este repositorio ire dejando las soluciones para cada reto del adventJS de Mi
 |Reto 5 (Dificil)| 170  |[Reto 05](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge05)|
 |Reto 6 (Medio)| 160  |[Reto 06](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge06)|
 |Reto 7 (Facil)| 400  |[Reto 07](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge07)|
+|Reto 8 (Medio)| 200  |[Reto 09](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge08)|
