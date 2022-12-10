@@ -31,3 +31,17 @@ En este repositorio ire dejando las soluciones para cada reto del adventJS de Mi
 |Reto 7 (Facil)| 400  |[Reto 07](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge07)|
 |Reto 8 (Medio)| 200  |[Reto 08](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge08)|
 |Reto 9 (Facil)| 300  |[Reto 09](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge09)|
+|Reto 10 (Medio)| 180  |[Reto 10](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge10)|
+
+## Tests
+
+En el repositorio se encuentra un package.json que contiene jest y un script para ejecutar los tests en caso de que se quieran ejecutar los tests realizados.
+
+### Ejecucion
+
+Para poder instalar y ejecutar los tests en el entorno local se necesita lo siguiente:
+
+1. Instalar node.js de la siguiente web <https://nodejs.org/es/>, preferiblemente version 18 en adelante.
+2. Una vez instalado descargar el repositorio con git clone.
+3. Dentro del repositorio ejecutar npm install para instalar jest.
+4. Cuando ya este instalado ejecutar npm run tests para ejecutar los tests de cada challenge.
