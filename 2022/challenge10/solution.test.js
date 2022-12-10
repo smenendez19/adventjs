@@ -23,3 +23,8 @@ test('Test Case 5', () => {
     expect(checkJump([2, 2, 2, 2])).toBe(false);
   }
 );
+
+test('Test Case 6', () => {
+  expect(checkJump([1, 3, 2, 5, 4, 3, 2, 1])).toBe(false);
+}
+);
