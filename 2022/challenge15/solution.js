@@ -18,6 +18,4 @@ function decorateTree(base) {
     return tree.map(row => row.join(" "))
 }
 
-console.log(decorateTree('B P R P'))
-
 module.exports = decorateTree
