@@ -1,4 +1,5 @@
 function distributeGifts(packOfGifts, reindeers) {
-    const reindersWeight = reindeers.join("").length * 2
-    return Math.floor(reindersWeight / packOfGifts.join("").length)
-  }
+  return Math.floor(
+      reindeers.reduce((acc, item) => acc + item.length, 0) * 2 /
+      packOfGifts.reduce((acc, item) => acc + item.length, 0))
+}
