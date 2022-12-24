@@ -1,5 +1,6 @@
 function getMaxGifts(giftsCities, maxGifts, maxCities) {
-  return Math.max(...[...giftsCities.reduce((x, y) => x.concat(x.map(x => [y].concat(x))), [[]])]
+  return Math.max(...[...giftsCities.reduce((x, y) => 
+    x.concat(x.map(x => [y].concat(x))), [[]])]
     .filter(item => item.length <= maxCities)
     .map(subset => subset.reduce((a, b) => a + b, 0))
     .filter(item => item <= maxGifts))
