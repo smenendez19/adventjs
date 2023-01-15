@@ -3,3 +3,5 @@ function dryNumber(dry, numbers) {
         number => number.toString().split("").includes(dry.toString())
     )
 }
+
+module.exports = dryNumber

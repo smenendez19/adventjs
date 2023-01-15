@@ -4,3 +4,5 @@ function sortToys(toys, positions) {
     .sort((a, b) => a[1] - b[1])
     .map(item => item[0])
 }
+
+module.exports = sortToys

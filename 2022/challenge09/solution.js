@@ -1,16 +1,16 @@
 // Solucion normal (60)
-function countTime(leds) {
-    let time = 0
-    while (leds.includes(0)) {
-        time++
-        leds = leds.map((led, i) => {
-        if ( i === 0 && leds[leds.length - 1] === 1) return 1
-        else if (leds[i - 1] === 1) return 1
-        return led
-        })
-    }
-    return time * 7
-}
+//function countTime(leds) {
+//    let time = 0
+//    while (leds.includes(0)) {
+//        time++
+//        leds = leds.map((led, i) => {
+//        if ( i === 0 && leds[leds.length - 1] === 1) return 1
+//        else if (leds[i - 1] === 1) return 1
+//        return led
+//        })
+//    }
+//    return time * 7
+//}
 
 // Solucion con splits (300)
 function countTime(leds) {
@@ -19,3 +19,4 @@ function countTime(leds) {
     return Math.max(...leds.map(item => item.length)) * 7
 }
 
+module.exports = countTime

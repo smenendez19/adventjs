@@ -3,3 +3,5 @@ function countHours(year, holidays) {
     [0, 6].includes(new Date(year + "/" + item).getDay()) ? 0 : 2
   ).reduce((a, b) => a + b)
 }
+
+module.exports = countHours

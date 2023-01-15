@@ -6,3 +6,5 @@ function checkPart(part) {
         return word.join("") === word.reverse().join("")
     })
 }
+
+module.exports = checkPart

@@ -3,3 +3,5 @@ function distributeGifts(packOfGifts, reindeers) {
       reindeers.reduce((acc, item) => acc + item.length, 0) * 2 /
       packOfGifts.reduce((acc, item) => acc + item.length, 0))
 }
+
+module.exports = distributeGifts

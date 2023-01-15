@@ -4,3 +4,5 @@ function wrapping(gifts) {
     return `${ast}**\n*${item}*\n**${ast}`}
     )
 }
+
+module.exports = wrapping

@@ -6,6 +6,8 @@ function getMaxGifts(giftsCities, maxGifts, maxCities) {
     .filter(item => item <= maxGifts))
 }
 
+module.exports = getMaxGifts
+
 // Explicacion
 // El problema tenia varias soluciones, se podia hacer de manera iterativa, utilizando recursividad con backtracking o la mas optima
 // que es obteniendo todas las combinaciones posibles utilizando un reduce y concatenando todos los resultados que se van formando en el map.
