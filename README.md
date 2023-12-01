@@ -34,4 +34,4 @@ Para poder instalar y ejecutar los tests en el entorno local se necesita lo sigu
 1. Instalar node.js de la siguiente web <https://nodejs.org/es/>, preferiblemente version 18 en adelante.
 2. Una vez instalado descargar el repositorio con git clone.
 3. Dentro del repositorio ejecutar npm install para instalar jest.
-4. Cuando ya este instalado ejecutar npm run tests para ejecutar los tests de cada challenge.
+4. Cuando ya este instalado ejecutar npm run test para ejecutar los tests de cada challenge.
