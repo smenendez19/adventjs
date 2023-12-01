@@ -18,34 +18,10 @@ En este repositorio ire dejando las soluciones para cada reto del adventJS de Mi
 
 ## Retos
 
-### 2022
-
-| Reto | Puntaje | Link |
-|---|---|---|
-|Reto 1 (Facil)| 131  |[Reto 01](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge01)|
-|Reto 2 (Facil)| 101  |[Reto 02](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge02)|
-|Reto 3 (Facil)| 168  |[Reto 03](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge03)|
-|Reto 4 (Medio)| 173  |[Reto 04](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge04)|
-|Reto 5 (Dificil)| 170  |[Reto 05](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge05)|
-|Reto 6 (Medio)| 200  |[Reto 06](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge06)|
-|Reto 7 (Facil)| 400  |[Reto 07](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge07)|
-|Reto 8 (Medio)| 200  |[Reto 08](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge08)|
-|Reto 9 (Facil)| 300  |[Reto 09](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge09)|
-|Reto 10 (Medio)| 260  |[Reto 10](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge10)|
-|Reto 11 (Dificil)| 260  |[Reto 11](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge11)|
-|Reto 12 (Medio)| 360  |[Reto 12](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge12)|
-|Reto 13 (Medio)| 300  |[Reto 13](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge13)|
-|Reto 14 (Medio)| 180  |[Reto 14](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge14)|
-|Reto 15 (Medio)| 200  |[Reto 15](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge15)|
-|Reto 16 (Dificil)| 300  |[Reto 16](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge16)|
-|Reto 17 (Medio)| 180  |[Reto 17](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge17)|
-|Reto 18 (Facil)| 200  |[Reto 18](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge18)|
-|Reto 19 (Facil)| 300  |[Reto 19](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge19)|
-|Reto 20 (Dificil)| 200  |[Reto 21](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge20)|
-|Reto 21 (Medio)| 300  |[Reto 21](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge21)|
-|Reto 22 (Facil)| 500  |[Reto 22](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge22)|
-|Reto 23 (Dificil)| 80  |[Reto 23](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge23)|
-|Reto 24 (Dificil)| 150  |[Reto 24](https://github.com/SantiMenendez19/adventjs/tree/main/2022/challenge24)|
+| Reto | Link |
+|---|---|
+|2022|[2022](https://github.com/SantiMenendez19/adventjs/tree/main/2022/2022.md)|
+|2023|[2023](https://github.com/SantiMenendez19/adventjs/tree/main/2023/2023.md)|
 
 ## Tests
 
