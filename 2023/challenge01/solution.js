@@ -14,5 +14,8 @@ function findFirstRepeatedWithFilter(gifts) {
   return repeated.length > 0 ? repeated[0] : -1
 }
 
+function findFirstRepeatedWithFind(gifts) {
+  return gifts.find((gift, i) => gifts.indexOf(gift) !== i) ?? -1
+}
 
 module.exports = findFirstRepeatedWithFilter;
