@@ -1,9 +1,9 @@
 function distributeGifts(weights) {
-  const r = weights.length
-  const c = weights[0].length
-  let avgWeights = Array(r).fill().map(() => Array(c));
-  for (let i = 0; i < r; i++) {
-    for (let j = 0; j < c; j++) {
+  let avgWeights = Array(weights.length)
+    .fill()
+    .map(() => Array(weights[0].length));
+  weights.forEach((row, i) => {
+    row.forEach((_, j) => {
       const gifts = [
         weights[i  -1]?.[j],
         weights[i + 1]?.[j],
@@ -14,8 +14,8 @@ function distributeGifts(weights) {
       let sum = 0
       gifts.map(n => sum+= n)
       avgWeights[i][j] = Math.round(sum / gifts.length)
-    }
-  }
+    })
+  })
   return avgWeights
 }
 
