@@ -6,7 +6,6 @@ function findBalancedSegment(message) {
         const slice = message.slice(i, j + 1)
         const zeros = slice.filter(x => !x).length
         if (!(slice.length - (zeros * 2)) && maxZerOnes < zeros) {
-          console.log(idxSegment, [i, j], zeros)
           idxSegment = [i, j]
           maxZerOnes = zeros
         }
