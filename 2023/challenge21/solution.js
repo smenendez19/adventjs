@@ -1,17 +1,17 @@
 function findBalancedSegment(message) {
-    let idxSegment = []
-    let maxZerOnes = 0
-    for (let i = 0; i < message.length; i++) {
-      for (let j = i+1; j < message.length; j++) {
-        const slice = message.slice(i, j + 1)
-        const zeros = slice.filter(x => !x).length
-        if (!(slice.length - (zeros * 2)) && maxZerOnes < zeros) {
-          idxSegment = [i, j]
-          maxZerOnes = zeros
-        }
+  let idxSegment = [], max = 0
+  for (let i = 0; i < message.length - 1; i++) {
+    let zeros = 0, ones = 0
+    for (let j = i; j < message.length; j++) {
+      message[j] === 0 ? zeros++ : ones++
+      if (zeros === ones && max < zeros) {
+        idxSegment = [i, j]
+        max = zeros
       }
     }
-    return idxSegment
+  }
+  return idxSegment
 }
+
 
 module.exports = findBalancedSegment
