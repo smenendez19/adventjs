@@ -10,11 +10,11 @@
 
 ## Descripcion
 
-En este repositorio ire dejando las soluciones para cada reto del adventJS de Midu.
+En este repositorio ire dejando las soluciones para cada reto del AdventJS de MiduDev.
 
 ## Link
 
-<https://adventjs.dev/>
+[AdventJS](https://adventjs.dev/)
 
 ## Retos
 
@@ -22,6 +22,7 @@ En este repositorio ire dejando las soluciones para cada reto del adventJS de Mi
 |---|---|
 |2022|[2022](https://github.com/SantiMenendez19/adventjs/tree/main/2022/2022.md)|
 |2023|[2023](https://github.com/SantiMenendez19/adventjs/tree/main/2023/2023.md)|
+|2023|[2024](https://github.com/SantiMenendez19/adventjs/tree/main/2024/2024.md)|
 
 ## Tests
 
@@ -31,7 +32,7 @@ En el repositorio se encuentra un package.json que contiene jest y un script par
 
 Para poder instalar y ejecutar los tests en el entorno local se necesita lo siguiente:
 
-1. Instalar node.js de la siguiente web <https://nodejs.org/es/>, preferiblemente version 18 en adelante.
+1. Instalar node.js de la siguiente web [Node JS](https://nodejs.org/es/), preferiblemente version 18 en adelante.
 2. Una vez instalado descargar el repositorio con git clone.
 3. Dentro del repositorio ejecutar npm install para instalar jest.
 4. Cuando ya este instalado ejecutar npm run test para ejecutar los tests de cada challenge.
