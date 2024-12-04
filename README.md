@@ -22,7 +22,7 @@ En este repositorio ire dejando las soluciones para cada reto del AdventJS de Mi
 |---|---|
 |2022|[2022](https://github.com/SantiMenendez19/adventjs/tree/main/2022/2022.md)|
 |2023|[2023](https://github.com/SantiMenendez19/adventjs/tree/main/2023/2023.md)|
-|2023|[2024](https://github.com/SantiMenendez19/adventjs/tree/main/2024/2024.md)|
+|2024|[2024](https://github.com/SantiMenendez19/adventjs/tree/main/2024/2024.md)|
 
 ## Tests
 
