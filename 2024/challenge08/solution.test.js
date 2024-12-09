@@ -1,7 +1,8 @@
-const fixPackages = require("./solution");
+const drawRace = require("./solution");
 
 test("Test Case 1", () => {
-  expect(fixPackages("a(cb)de")).toStrictEqual(
-    "abcde"
-  );
+  expect(drawRace([0, 5, -3], 10)).toStrictEqual(
+    "  ~~~~~~~~~~ /1\n" + 
+    " ~~~~~r~~~~ /2\n" +
+    "~~~~~~~r~~ /3");
 });
